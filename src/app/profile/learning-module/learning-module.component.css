@@ -1,0 +1,39 @@
+.module-container {
+  display: flex;
+  width: 275px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.title {
+  width: 220px;
+  padding-left: 10px;
+  background-color: #ededed;
+  border-radius: 4px;
+  line-height: 40px;
+  margin-right: 5px;
+}
+
+.title.title-selected {
+  /*width: 225px;*/
+  /*padding-left: 10px;*/
+  background-color: #3b7088;
+  /*border-radius: 4px;*/
+  /*line-height: 25px;*/
+  color: #ffffff;
+}
+
+.checkbox {
+  width: 40px;
+  background-color: #ededed;
+  border-radius: 4px;
+  line-height: 40px;
+}
+
+.checkbox-selected {
+  /*width: 25px;*/
+  background-color: #3b7088;
+  /*border-radius: 4px;*/
+  /*line-height: 25px;*/
+  color: #ffffff;
+}

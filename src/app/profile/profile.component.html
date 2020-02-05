@@ -1,3 +1,24 @@
-<div>
-  {{profile.name}}
+<div class="profile-header">
+  <div class="name">
+    {{profile.name.toUpperCase()}}
+  </div>
+
+  <div class="stats">
+<!--    <div>YEARS OF SERVICE:</div>-->
+<!--    <div>LIFETIME REWARDS:</div>-->
+  </div>
+</div>
+
+<div class="picture">
+  <img src="./assets/suzie.jpg" />
+</div>
+
+<div class="middle">
+  <div class="mr-auto">My recent wins...</div>
+  <app-learning-module class="mr-auto" [title]="profile.bossChallenges[0].challengeName" [selected]="profile.bossChallenges[0].completed"></app-learning-module>
+</div>
+
+<div class="learning-modules">
+  <div style="color: #ffffff; font-style: italic; margin-top: 20px;" class="mr-auto">My learning modules...</div>
+  <app-learning-module class="mr-auto" *ngFor="let module of profile.bossChallenges | slice:1;" [title]="module.challengeName" [selected]="false"></app-learning-module>
 </div>

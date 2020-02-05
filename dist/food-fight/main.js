@@ -105,6 +105,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_fire__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/fire */ "./node_modules/@angular/fire/index.js");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
 /* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/firestore/index.js");
+/* harmony import */ var _profile_learning_module_learning_module_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./profile/learning-module/learning-module.component */ "./src/app/profile/learning-module/learning-module.component.ts");
+
 
 
 
@@ -155,7 +157,8 @@ var AppModule = /** @class */ (function () {
                 _polls_polls_component__WEBPACK_IMPORTED_MODULE_7__["PollsComponent"],
                 _challenges_challenges_component__WEBPACK_IMPORTED_MODULE_8__["ChallengesComponent"],
                 _profile_profile_component__WEBPACK_IMPORTED_MODULE_9__["ProfileComponent"],
-                _header_header_component__WEBPACK_IMPORTED_MODULE_13__["HeaderComponent"]
+                _header_header_component__WEBPACK_IMPORTED_MODULE_13__["HeaderComponent"],
+                _profile_learning_module_learning_module_component__WEBPACK_IMPORTED_MODULE_17__["LearningModuleComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -422,6 +425,70 @@ var PollsComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/profile/learning-module/learning-module.component.css":
+/*!***********************************************************************!*\
+  !*** ./src/app/profile/learning-module/learning-module.component.css ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".module-container {\n  display: flex;\n  width: 275px;\n  height: 40px;\n  margin-bottom: 10px;\n}\n\n.title {\n  width: 220px;\n  padding-left: 10px;\n  background-color: #ededed;\n  border-radius: 4px;\n  line-height: 40px;\n  margin-right: 5px;\n}\n\n.title.title-selected {\n  /*width: 225px;*/\n  /*padding-left: 10px;*/\n  background-color: #3b7088;\n  /*border-radius: 4px;*/\n  /*line-height: 25px;*/\n  color: #ffffff;\n}\n\n.checkbox {\n  width: 40px;\n  background-color: #ededed;\n  border-radius: 4px;\n  line-height: 40px;\n}\n\n.checkbox-selected {\n  /*width: 25px;*/\n  background-color: #3b7088;\n  /*border-radius: 4px;*/\n  /*line-height: 25px;*/\n  color: #ffffff;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9sZWFybmluZy1tb2R1bGUvbGVhcm5pbmctbW9kdWxlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2IsWUFBWTtFQUNaLFlBQVk7RUFDWixtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLHlCQUF5QjtFQUN6QixrQkFBa0I7RUFDbEIsaUJBQWlCO0VBQ2pCLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixzQkFBc0I7RUFDdEIseUJBQXlCO0VBQ3pCLHNCQUFzQjtFQUN0QixxQkFBcUI7RUFDckIsY0FBYztBQUNoQjs7QUFFQTtFQUNFLFdBQVc7RUFDWCx5QkFBeUI7RUFDekIsa0JBQWtCO0VBQ2xCLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLGVBQWU7RUFDZix5QkFBeUI7RUFDekIsc0JBQXNCO0VBQ3RCLHFCQUFxQjtFQUNyQixjQUFjO0FBQ2hCIiwiZmlsZSI6InNyYy9hcHAvcHJvZmlsZS9sZWFybmluZy1tb2R1bGUvbGVhcm5pbmctbW9kdWxlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubW9kdWxlLWNvbnRhaW5lciB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIHdpZHRoOiAyNzVweDtcbiAgaGVpZ2h0OiA0MHB4O1xuICBtYXJnaW4tYm90dG9tOiAxMHB4O1xufVxuXG4udGl0bGUge1xuICB3aWR0aDogMjIwcHg7XG4gIHBhZGRpbmctbGVmdDogMTBweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2VkZWRlZDtcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xuICBsaW5lLWhlaWdodDogNDBweDtcbiAgbWFyZ2luLXJpZ2h0OiA1cHg7XG59XG5cbi50aXRsZS50aXRsZS1zZWxlY3RlZCB7XG4gIC8qd2lkdGg6IDIyNXB4OyovXG4gIC8qcGFkZGluZy1sZWZ0OiAxMHB4OyovXG4gIGJhY2tncm91bmQtY29sb3I6ICMzYjcwODg7XG4gIC8qYm9yZGVyLXJhZGl1czogNHB4OyovXG4gIC8qbGluZS1oZWlnaHQ6IDI1cHg7Ki9cbiAgY29sb3I6ICNmZmZmZmY7XG59XG5cbi5jaGVja2JveCB7XG4gIHdpZHRoOiA0MHB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZWRlZGVkO1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIGxpbmUtaGVpZ2h0OiA0MHB4O1xufVxuXG4uY2hlY2tib3gtc2VsZWN0ZWQge1xuICAvKndpZHRoOiAyNXB4OyovXG4gIGJhY2tncm91bmQtY29sb3I6ICMzYjcwODg7XG4gIC8qYm9yZGVyLXJhZGl1czogNHB4OyovXG4gIC8qbGluZS1oZWlnaHQ6IDI1cHg7Ki9cbiAgY29sb3I6ICNmZmZmZmY7XG59XG4iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/profile/learning-module/learning-module.component.html":
+/*!************************************************************************!*\
+  !*** ./src/app/profile/learning-module/learning-module.component.html ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"module-container\">\n  <div class=\"title\" [ngClass]=\"{'title-selected': selected}\">{{title}}</div>\n  <div class=\"checkbox\" [ngClass]=\"{'checkbox-selected': selected}\"><span style=\"margin-left: 12px;\" *ngIf=\"selected\">✔</span></div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/profile/learning-module/learning-module.component.ts":
+/*!**********************************************************************!*\
+  !*** ./src/app/profile/learning-module/learning-module.component.ts ***!
+  \**********************************************************************/
+/*! exports provided: LearningModuleComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LearningModuleComponent", function() { return LearningModuleComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var LearningModuleComponent = /** @class */ (function () {
+    function LearningModuleComponent() {
+    }
+    LearningModuleComponent.prototype.ngOnInit = function () {
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Object)
+    ], LearningModuleComponent.prototype, "title", void 0);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Object)
+    ], LearningModuleComponent.prototype, "selected", void 0);
+    LearningModuleComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-learning-module',
+            template: __webpack_require__(/*! ./learning-module.component.html */ "./src/app/profile/learning-module/learning-module.component.html"),
+            styles: [__webpack_require__(/*! ./learning-module.component.css */ "./src/app/profile/learning-module/learning-module.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], LearningModuleComponent);
+    return LearningModuleComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/profile/profile.component.css":
 /*!***********************************************!*\
   !*** ./src/app/profile/profile.component.css ***!
@@ -429,7 +496,7 @@ var PollsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Byb2ZpbGUvcHJvZmlsZS5jb21wb25lbnQuY3NzIn0= */"
+module.exports = ".profile-header {\n  display: flex;\n  height: 125px;\n  background-color: #bed3dc;\n}\n\n.profile-header .name {\n  max-width: 75px;\n  margin-right: auto;\n  padding-top: 20px;\n  padding-left: 20px;\n  font-weight: 500;\n  font-size: 20px;\n}\n\n.picture {\n  position: absolute;\n  display: flex;\n  width: 100%;\n  top: 120px;\n}\n\n.picture img {\n  width: 200px;\n  height: 200px;\n  border-radius: 200px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.middle {\n  display: flex;\n  flex-direction: column;\n  height: 100px;\n  margin-top: 200px;\n}\n\n.learning-modules {\n  display: flex;\n  flex-direction: column;\n  height: 262px;\n  background-color: #bed3dc;\n}\n\n.mr-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9wcm9maWxlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2IsYUFBYTtFQUNiLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixnQkFBZ0I7RUFDaEIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixhQUFhO0VBQ2IsV0FBVztFQUNYLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFlBQVk7RUFDWixhQUFhO0VBQ2Isb0JBQW9CO0VBQ3BCLGlCQUFpQjtFQUNqQixrQkFBa0I7QUFDcEI7O0FBSUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLGFBQWE7RUFDYixpQkFBaUI7QUFDbkI7O0FBSUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLGFBQWE7RUFDYix5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxpQkFBaUI7RUFDakIsa0JBQWtCO0FBQ3BCIiwiZmlsZSI6InNyYy9hcHAvcHJvZmlsZS9wcm9maWxlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucHJvZmlsZS1oZWFkZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBoZWlnaHQ6IDEyNXB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjYmVkM2RjO1xufVxuXG4ucHJvZmlsZS1oZWFkZXIgLm5hbWUge1xuICBtYXgtd2lkdGg6IDc1cHg7XG4gIG1hcmdpbi1yaWdodDogYXV0bztcbiAgcGFkZGluZy10b3A6IDIwcHg7XG4gIHBhZGRpbmctbGVmdDogMjBweDtcbiAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgZm9udC1zaXplOiAyMHB4O1xufVxuXG4ucGljdHVyZSB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgd2lkdGg6IDEwMCU7XG4gIHRvcDogMTIwcHg7XG59XG5cbi5waWN0dXJlIGltZyB7XG4gIHdpZHRoOiAyMDBweDtcbiAgaGVpZ2h0OiAyMDBweDtcbiAgYm9yZGVyLXJhZGl1czogMjAwcHg7XG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG59XG5cblxuXG4ubWlkZGxlIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgaGVpZ2h0OiAxMDBweDtcbiAgbWFyZ2luLXRvcDogMjAwcHg7XG59XG5cblxuXG4ubGVhcm5pbmctbW9kdWxlcyB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGhlaWdodDogMjYycHg7XG4gIGJhY2tncm91bmQtY29sb3I6ICNiZWQzZGM7XG59XG5cbi5tci1hdXRvIHtcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIG1hcmdpbi1yaWdodDogYXV0bztcbn1cbiJdfQ== */"
 
 /***/ }),
 
@@ -440,7 +507,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  {{profile.name}}\n</div>\n"
+module.exports = "<div class=\"profile-header\">\n  <div class=\"name\">\n    {{profile.name.toUpperCase()}}\n  </div>\n\n  <div class=\"stats\">\n<!--    <div>YEARS OF SERVICE:</div>-->\n<!--    <div>LIFETIME REWARDS:</div>-->\n  </div>\n</div>\n\n<div class=\"picture\">\n  <img src=\"./assets/suzie.jpg\" />\n</div>\n\n<div class=\"middle\">\n  <div class=\"mr-auto\">My recent wins...</div>\n  <app-learning-module class=\"mr-auto\" [title]=\"profile.bossChallenges[0].challengeName\" [selected]=\"profile.bossChallenges[0].completed\"></app-learning-module>\n</div>\n\n<div class=\"learning-modules\">\n  <div style=\"color: #ffffff; font-style: italic; margin-top: 20px;\" class=\"mr-auto\">My learning modules...</div>\n  <app-learning-module class=\"mr-auto\" *ngFor=\"let module of profile.bossChallenges | slice:1;\" [title]=\"module.challengeName\" [selected]=\"false\"></app-learning-module>\n</div>\n"
 
 /***/ }),
 

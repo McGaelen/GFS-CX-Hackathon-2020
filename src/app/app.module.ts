@@ -15,6 +15,7 @@ import { HeaderComponent } from './header/header.component';
 import {AngularFireModule} from '@angular/fire';
 import {environment} from '../environments/environment';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
+import { LearningModuleComponent } from './profile/learning-module/learning-module.component';
 
 const routes: Routes = [
   {
@@ -43,7 +44,8 @@ const routes: Routes = [
     PollsComponent,
     ChallengesComponent,
     ProfileComponent,
-    HeaderComponent
+    HeaderComponent,
+    LearningModuleComponent
   ],
   imports: [
     BrowserModule,
