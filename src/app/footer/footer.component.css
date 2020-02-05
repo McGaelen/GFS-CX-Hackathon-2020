@@ -6,13 +6,19 @@
 
 ::ng-deep .footer-container button {
   flex: 1;
+  padding-top: 10px;
+}
+
+.footer-container button.active {
+  border-top: 4px solid red;
+  padding-top: 6px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .2);
 }
 
 ::ng-deep .footer-container button .mat-button-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10px;
 }
 
 img {

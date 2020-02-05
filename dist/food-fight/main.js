@@ -197,7 +197,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  challenges works!\n</div>\n"
+module.exports = "<div>\n  Under Construction!\n</div>\n"
 
 /***/ }),
 
@@ -242,7 +242,7 @@ var ChallengesComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".footer-container {\n  display: flex;\n  height: 75px;\n  overflow: scroll;\n}\n\n::ng-deep .footer-container button {\n  flex: 1;\n}\n\n::ng-deep .footer-container button .mat-button-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding-top: 10px;\n}\n\nimg {\n  height: 35px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtFQUNiLFlBQVk7RUFDWixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxPQUFPO0FBQ1Q7O0FBRUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLG1CQUFtQjtFQUNuQixpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSxZQUFZO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9vdGVyLWNvbnRhaW5lciB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGhlaWdodDogNzVweDtcbiAgb3ZlcmZsb3c6IHNjcm9sbDtcbn1cblxuOjpuZy1kZWVwIC5mb290ZXItY29udGFpbmVyIGJ1dHRvbiB7XG4gIGZsZXg6IDE7XG59XG5cbjo6bmctZGVlcCAuZm9vdGVyLWNvbnRhaW5lciBidXR0b24gLm1hdC1idXR0b24td3JhcHBlciB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIHBhZGRpbmctdG9wOiAxMHB4O1xufVxuXG5pbWcge1xuICBoZWlnaHQ6IDM1cHg7XG59XG4iXX0= */"
+module.exports = ".footer-container {\n  display: flex;\n  height: 75px;\n  overflow: scroll;\n}\n\n::ng-deep .footer-container button {\n  flex: 1;\n  padding-top: 10px;\n}\n\n.footer-container button.active {\n  border-top: 4px solid red;\n  padding-top: 6px;\n  box-shadow: 0 0 3px rgba(0, 0, 0, .2);\n}\n\n::ng-deep .footer-container button .mat-button-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nimg {\n  height: 35px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtFQUNiLFlBQVk7RUFDWixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxPQUFPO0VBQ1AsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGdCQUFnQjtFQUNoQixxQ0FBcUM7QUFDdkM7O0FBRUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLFlBQVk7QUFDZCIsImZpbGUiOiJzcmMvYXBwL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5mb290ZXItY29udGFpbmVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAgaGVpZ2h0OiA3NXB4O1xuICBvdmVyZmxvdzogc2Nyb2xsO1xufVxuXG46Om5nLWRlZXAgLmZvb3Rlci1jb250YWluZXIgYnV0dG9uIHtcbiAgZmxleDogMTtcbiAgcGFkZGluZy10b3A6IDEwcHg7XG59XG5cbi5mb290ZXItY29udGFpbmVyIGJ1dHRvbi5hY3RpdmUge1xuICBib3JkZXItdG9wOiA0cHggc29saWQgcmVkO1xuICBwYWRkaW5nLXRvcDogNnB4O1xuICBib3gtc2hhZG93OiAwIDAgM3B4IHJnYmEoMCwgMCwgMCwgLjIpO1xufVxuXG46Om5nLWRlZXAgLmZvb3Rlci1jb250YWluZXIgYnV0dG9uIC5tYXQtYnV0dG9uLXdyYXBwZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG5pbWcge1xuICBoZWlnaHQ6IDM1cHg7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -253,7 +253,7 @@ module.exports = ".footer-container {\n  display: flex;\n  height: 75px;\n  over
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"footer-container\">\n\n  <button [routerLink]=\"'/challenges'\" mat-button>\n    <img src=\"./assets/icon-challenge.svg\" />\n    Challenges\n  </button>\n  <button [routerLink]=\"'/trivia'\" mat-button>\n    <img src=\"./assets/icon-trivia.svg\" />\n    Trivia\n  </button>\n  <button [routerLink]=\"'/polls'\" mat-button>\n    <img src=\"./assets/icon-polls.svg\" />\n    Polls\n  </button>\n  <button [routerLink]=\"['/profile', userId]\" mat-button>\n    <img src=\"./assets/icon-profile.svg\" />\n    Profile\n  </button>\n</div>\n"
+module.exports = "<div class=\"footer-container\">\n  <button [ngClass]=\"{'active': activeTab === 'challenges'}\" (click)=\"changeActiveTab('challenges')\" [routerLink]=\"'/challenges'\" mat-button>\n    <img src=\"./assets/icon-challenge.svg\" />\n    Challenges\n  </button>\n  <button [ngClass]=\"{'active': activeTab === 'trivia'}\" (click)=\"changeActiveTab('trivia')\" [routerLink]=\"'/trivia'\" mat-button>\n    <img src=\"./assets/icon-trivia.svg\" />\n    Trivia\n  </button>\n  <button [ngClass]=\"{'active': activeTab === 'polls'}\" (click)=\"changeActiveTab('polls')\" [routerLink]=\"'/polls'\" mat-button>\n    <img src=\"./assets/icon-polls.svg\" />\n    Polls\n  </button>\n  <button [ngClass]=\"{'active': activeTab === 'profile'}\" (click)=\"changeActiveTab('profile')\" [routerLink]=\"['/profile', userId]\" mat-button>\n    <img src=\"./assets/icon-profile.svg\" />\n    Profile\n  </button>\n</div>\n"
 
 /***/ }),
 
@@ -272,10 +272,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var FooterComponent = /** @class */ (function () {
-    function FooterComponent() {
+    function FooterComponent(changeDetectorRef) {
+        this.changeDetectorRef = changeDetectorRef;
         this.userId = 'susie123';
+        this.activeTab = 'trivia';
     }
     FooterComponent.prototype.ngOnInit = function () {
+    };
+    FooterComponent.prototype.changeActiveTab = function (tab) {
+        this.activeTab = tab;
+        this.changeDetectorRef.detectChanges();
     };
     FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -283,7 +289,7 @@ var FooterComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./footer.component.html */ "./src/app/footer/footer.component.html"),
             styles: [__webpack_require__(/*! ./footer.component.css */ "./src/app/footer/footer.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]])
     ], FooterComponent);
     return FooterComponent;
 }());
@@ -355,7 +361,7 @@ var HeaderComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BvbGxzL3BvbGxzLmNvbXBvbmVudC5jc3MifQ== */"
+module.exports = ".trivia-container {\n  display: flex;\n  flex-direction: column;\n}\n\n.description {\n  display: flex;\n  flex-direction: column;\n  height: 400px;\n  background-color: #c21c2b;\n  text-align: center;\n  margin-bottom: 20px;\n}\n\n.description .description-text {\n  margin-top: auto;\n  margin-bottom: auto;\n  font-size: 45px;\n  font-weight: 700;\n  font-style: italic;\n  color: #ffffff;\n}\n\nbutton {\n  margin: 10px 0;\n  font-size: 18px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcG9sbHMvcG9sbHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQWE7RUFDYixzQkFBc0I7QUFDeEI7O0FBRUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLGFBQWE7RUFDYix5QkFBeUI7RUFDekIsa0JBQWtCO0VBQ2xCLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixtQkFBbUI7RUFDbkIsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixrQkFBa0I7RUFDbEIsY0FBYztBQUNoQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxlQUFlO0FBQ2pCIiwiZmlsZSI6InNyYy9hcHAvcG9sbHMvcG9sbHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi50cml2aWEtY29udGFpbmVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbn1cblxuLmRlc2NyaXB0aW9uIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgaGVpZ2h0OiA0MDBweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2MyMWMyYjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xufVxuXG4uZGVzY3JpcHRpb24gLmRlc2NyaXB0aW9uLXRleHQge1xuICBtYXJnaW4tdG9wOiBhdXRvO1xuICBtYXJnaW4tYm90dG9tOiBhdXRvO1xuICBmb250LXNpemU6IDQ1cHg7XG4gIGZvbnQtd2VpZ2h0OiA3MDA7XG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgY29sb3I6ICNmZmZmZmY7XG59XG5cbmJ1dHRvbiB7XG4gIG1hcmdpbjogMTBweCAwO1xuICBmb250LXNpemU6IDE4cHg7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -366,7 +372,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  polls works!\n</div>\n"
+module.exports = "<div class=\"trivia-container\">\n  <div class=\"description\"><div class=\"description-text\">{{poll.description}}</div></div>\n  <button *ngFor=\"let choice of poll.choices\" mat-button (click)=\"answerPoll(choice)\">{{choice}}</button>\n</div>\n"
 
 /***/ }),
 
@@ -382,12 +388,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PollsComponent", function() { return PollsComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/firestore/index.js");
+
+
 
 
 var PollsComponent = /** @class */ (function () {
-    function PollsComponent() {
+    function PollsComponent(db) {
+        this.db = db;
     }
     PollsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.db.collection('polls').valueChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["switchMap"])(function (collection) { return collection; })).subscribe(function (val) {
+            _this.poll = val;
+            console.log(_this.poll);
+        });
+    };
+    PollsComponent.prototype.answerPoll = function (answer) {
     };
     PollsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -395,7 +413,7 @@ var PollsComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./polls.component.html */ "./src/app/polls/polls.component.html"),
             styles: [__webpack_require__(/*! ./polls.component.css */ "./src/app/polls/polls.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__["AngularFirestore"]])
     ], PollsComponent);
     return PollsComponent;
 }());
@@ -483,7 +501,7 @@ var ProfileComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".trivia-container {\n  display: flex;\n  flex-direction: column;\n}\n\n.description {\n  display: flex;\n  flex-direction: column;\n  height: 400px;\n  background-color: #accc97;\n  text-align: center;\n  margin-bottom: 20px;\n}\n\n/*.description .fail {*/\n\n/*  background-color: #c21c2b;*/\n\n/*}*/\n\n.description .description-text {\n  margin-top: auto;\n  margin-bottom: auto;\n  font-size: 45px;\n  font-weight: 700;\n}\n\nbutton {\n  margin: 10px 0;\n  font-size: 18px;\n}\n\n.trivia-result {\n  display: flex;\n  flex-direction: column;\n}\n\n.trivia-result .description {\n  height: 700px;\n}\n\n.trivia-result .description-fail {\n  background-color: #c21c2b;\n  display: flex;\n  flex-direction: column;\n  height: 700px;\n  text-align: center;\n  margin-bottom: 20px;\n}\n\n.result-img {\n  height: 70px;\n  margin-top: 20px;\n}\n\n.yas {\n  color: #335f2f;\n  font-size: 80px;\n  font-style: italic;\n  font-weight: 700;\n}\n\n.nope {\n  color: #ffffff;\n  font-size: 80px;\n  font-style: italic;\n  font-weight: 700;\n}\n\n.youre-right {\n  color: #ffffff;\n  font-size: 50px;\n  font-style: italic;\n  font-weight: 500;\n}\n\n.choice {\n  color: #ffffff;\n  font-size: 50px;\n  font-weight: 500;\n  margin-bottom: 20px;\n}\n\n.message {\n  color: #ffffff;\n  font-size: 24px;\n  font-style: italic;\n  font-weight: 300;\n  margin-top: 50px;\n}\n\n.shield {\n  height: 175px;\n  margin-top: 20px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdHJpdmlhL3RyaXZpYS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtFQUNiLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsYUFBYTtFQUNiLHlCQUF5QjtFQUN6QixrQkFBa0I7RUFDbEIsbUJBQW1CO0FBQ3JCOztBQUVBLHVCQUF1Qjs7QUFDdkIsK0JBQStCOztBQUMvQixJQUFJOztBQUVKO0VBQ0UsZ0JBQWdCO0VBQ2hCLG1CQUFtQjtFQUNuQixlQUFlO0VBQ2YsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0FBQ3hCOztBQUVBO0VBQ0UsYUFBYTtBQUNmOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsYUFBYTtFQUNiLGtCQUFrQjtFQUNsQixtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxZQUFZO0VBQ1osZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGFBQWE7RUFDYixnQkFBZ0I7QUFDbEIiLCJmaWxlIjoic3JjL2FwcC90cml2aWEvdHJpdmlhLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudHJpdmlhLWNvbnRhaW5lciB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG59XG5cbi5kZXNjcmlwdGlvbiB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGhlaWdodDogNDAwcHg7XG4gIGJhY2tncm91bmQtY29sb3I6ICNhY2NjOTc7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgbWFyZ2luLWJvdHRvbTogMjBweDtcbn1cblxuLyouZGVzY3JpcHRpb24gLmZhaWwgeyovXG4vKiAgYmFja2dyb3VuZC1jb2xvcjogI2MyMWMyYjsqL1xuLyp9Ki9cblxuLmRlc2NyaXB0aW9uIC5kZXNjcmlwdGlvbi10ZXh0IHtcbiAgbWFyZ2luLXRvcDogYXV0bztcbiAgbWFyZ2luLWJvdHRvbTogYXV0bztcbiAgZm9udC1zaXplOiA0NXB4O1xuICBmb250LXdlaWdodDogNzAwO1xufVxuXG5idXR0b24ge1xuICBtYXJnaW46IDEwcHggMDtcbiAgZm9udC1zaXplOiAxOHB4O1xufVxuXG4udHJpdmlhLXJlc3VsdCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG59XG5cbi50cml2aWEtcmVzdWx0IC5kZXNjcmlwdGlvbiB7XG4gIGhlaWdodDogNzAwcHg7XG59XG5cbi50cml2aWEtcmVzdWx0IC5kZXNjcmlwdGlvbi1mYWlsIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2MyMWMyYjtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgaGVpZ2h0OiA3MDBweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xufVxuXG4ucmVzdWx0LWltZyB7XG4gIGhlaWdodDogNzBweDtcbiAgbWFyZ2luLXRvcDogMjBweDtcbn1cblxuLnlhcyB7XG4gIGNvbG9yOiAjMzM1ZjJmO1xuICBmb250LXNpemU6IDgwcHg7XG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgZm9udC13ZWlnaHQ6IDcwMDtcbn1cblxuLm5vcGUge1xuICBjb2xvcjogI2ZmZmZmZjtcbiAgZm9udC1zaXplOiA4MHB4O1xuICBmb250LXN0eWxlOiBpdGFsaWM7XG4gIGZvbnQtd2VpZ2h0OiA3MDA7XG59XG5cbi55b3VyZS1yaWdodCB7XG4gIGNvbG9yOiAjZmZmZmZmO1xuICBmb250LXNpemU6IDUwcHg7XG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgZm9udC13ZWlnaHQ6IDUwMDtcbn1cblxuLmNob2ljZSB7XG4gIGNvbG9yOiAjZmZmZmZmO1xuICBmb250LXNpemU6IDUwcHg7XG4gIGZvbnQtd2VpZ2h0OiA1MDA7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG59XG5cbi5tZXNzYWdlIHtcbiAgY29sb3I6ICNmZmZmZmY7XG4gIGZvbnQtc2l6ZTogMjRweDtcbiAgZm9udC1zdHlsZTogaXRhbGljO1xuICBmb250LXdlaWdodDogMzAwO1xuICBtYXJnaW4tdG9wOiA1MHB4O1xufVxuXG4uc2hpZWxkIHtcbiAgaGVpZ2h0OiAxNzVweDtcbiAgbWFyZ2luLXRvcDogMjBweDtcbn1cbiJdfQ== */"
+module.exports = ".trivia-container {\n  display: flex;\n  flex-direction: column;\n}\n\n.description {\n  display: flex;\n  flex-direction: column;\n  height: 400px;\n  background-color: #accc97;\n  text-align: center;\n  margin-bottom: 20px;\n}\n\n.description .description-text {\n  margin-top: auto;\n  margin-bottom: auto;\n  font-size: 45px;\n  font-weight: 700;\n}\n\nbutton {\n  margin: 10px 0;\n  font-size: 18px;\n}\n\n.trivia-result {\n  display: flex;\n  flex-direction: column;\n}\n\n.trivia-result .description {\n  height: 700px;\n}\n\n.trivia-result .description-fail {\n  background-color: #c21c2b;\n  display: flex;\n  flex-direction: column;\n  height: 700px;\n  text-align: center;\n  margin-bottom: 20px;\n}\n\n.result-img {\n  height: 70px;\n  margin-top: 20px;\n}\n\n.yas {\n  color: #335f2f;\n  font-size: 80px;\n  font-style: italic;\n  font-weight: 700;\n}\n\n.nope {\n  color: #ffffff;\n  font-size: 80px;\n  font-style: italic;\n  font-weight: 700;\n}\n\n.youre-right {\n  color: #ffffff;\n  font-size: 50px;\n  font-style: italic;\n  font-weight: 500;\n}\n\n.choice {\n  color: #ffffff;\n  font-size: 50px;\n  font-weight: 500;\n  margin-bottom: 20px;\n}\n\n.message {\n  color: #ffffff;\n  font-size: 24px;\n  font-style: italic;\n  font-weight: 300;\n  margin-top: 50px;\n}\n\n.shield {\n  height: 175px;\n  margin-top: 20px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdHJpdmlhL3RyaXZpYS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtFQUNiLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsYUFBYTtFQUNiLHlCQUF5QjtFQUN6QixrQkFBa0I7RUFDbEIsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLG1CQUFtQjtFQUNuQixlQUFlO0VBQ2YsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0FBQ3hCOztBQUVBO0VBQ0UsYUFBYTtBQUNmOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsYUFBYTtFQUNiLGtCQUFrQjtFQUNsQixtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxZQUFZO0VBQ1osZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGFBQWE7RUFDYixnQkFBZ0I7QUFDbEIiLCJmaWxlIjoic3JjL2FwcC90cml2aWEvdHJpdmlhLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudHJpdmlhLWNvbnRhaW5lciB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG59XG5cbi5kZXNjcmlwdGlvbiB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGhlaWdodDogNDAwcHg7XG4gIGJhY2tncm91bmQtY29sb3I6ICNhY2NjOTc7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgbWFyZ2luLWJvdHRvbTogMjBweDtcbn1cblxuLmRlc2NyaXB0aW9uIC5kZXNjcmlwdGlvbi10ZXh0IHtcbiAgbWFyZ2luLXRvcDogYXV0bztcbiAgbWFyZ2luLWJvdHRvbTogYXV0bztcbiAgZm9udC1zaXplOiA0NXB4O1xuICBmb250LXdlaWdodDogNzAwO1xufVxuXG5idXR0b24ge1xuICBtYXJnaW46IDEwcHggMDtcbiAgZm9udC1zaXplOiAxOHB4O1xufVxuXG4udHJpdmlhLXJlc3VsdCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG59XG5cbi50cml2aWEtcmVzdWx0IC5kZXNjcmlwdGlvbiB7XG4gIGhlaWdodDogNzAwcHg7XG59XG5cbi50cml2aWEtcmVzdWx0IC5kZXNjcmlwdGlvbi1mYWlsIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2MyMWMyYjtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgaGVpZ2h0OiA3MDBweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xufVxuXG4ucmVzdWx0LWltZyB7XG4gIGhlaWdodDogNzBweDtcbiAgbWFyZ2luLXRvcDogMjBweDtcbn1cblxuLnlhcyB7XG4gIGNvbG9yOiAjMzM1ZjJmO1xuICBmb250LXNpemU6IDgwcHg7XG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgZm9udC13ZWlnaHQ6IDcwMDtcbn1cblxuLm5vcGUge1xuICBjb2xvcjogI2ZmZmZmZjtcbiAgZm9udC1zaXplOiA4MHB4O1xuICBmb250LXN0eWxlOiBpdGFsaWM7XG4gIGZvbnQtd2VpZ2h0OiA3MDA7XG59XG5cbi55b3VyZS1yaWdodCB7XG4gIGNvbG9yOiAjZmZmZmZmO1xuICBmb250LXNpemU6IDUwcHg7XG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgZm9udC13ZWlnaHQ6IDUwMDtcbn1cblxuLmNob2ljZSB7XG4gIGNvbG9yOiAjZmZmZmZmO1xuICBmb250LXNpemU6IDUwcHg7XG4gIGZvbnQtd2VpZ2h0OiA1MDA7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG59XG5cbi5tZXNzYWdlIHtcbiAgY29sb3I6ICNmZmZmZmY7XG4gIGZvbnQtc2l6ZTogMjRweDtcbiAgZm9udC1zdHlsZTogaXRhbGljO1xuICBmb250LXdlaWdodDogMzAwO1xuICBtYXJnaW4tdG9wOiA1MHB4O1xufVxuXG4uc2hpZWxkIHtcbiAgaGVpZ2h0OiAxNzVweDtcbiAgbWFyZ2luLXRvcDogMjBweDtcbn1cbiJdfQ== */"
 
 /***/ }),
 
@@ -530,8 +548,16 @@ var TriviaComponent = /** @class */ (function () {
         });
     };
     TriviaComponent.prototype.answerTrivia = function (answer) {
+        var _this = this;
         this.answered = true;
         this.correct = this.getCorrectChoice().choiceName === answer;
+        this.db.collection('profiles').doc('susie123').valueChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["first"])()).subscribe(function (val) {
+            console.log(val);
+            // tslint:disable-next-line:no-string-literal
+            val['timeline'].push({ type: 'badge', description: _this.getCorrectChoice().choiceName });
+            // tslint:disable-next-line:no-string-literal
+            _this.db.collection('profile').doc('susie123').update({ timeline: val['timeline'] });
+        });
     };
     TriviaComponent.prototype.getCorrectChoice = function () {
         return this.trivia.choices.find(function (val) { return val.correct; });

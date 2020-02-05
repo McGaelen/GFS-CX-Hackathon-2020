@@ -1,3 +1,4 @@
-<div>
-  polls works!
+<div class="trivia-container">
+  <div class="description"><div class="description-text">{{poll.description}}</div></div>
+  <button *ngFor="let choice of poll.choices" mat-button (click)="answerPoll(choice)">{{choice}}</button>
 </div>

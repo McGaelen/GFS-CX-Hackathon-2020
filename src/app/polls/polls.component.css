@@ -1,0 +1,27 @@
+.trivia-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  background-color: #c21c2b;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.description .description-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+}
+
+button {
+  margin: 10px 0;
+  font-size: 18px;
+}

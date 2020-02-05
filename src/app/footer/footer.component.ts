@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectorRef, Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -8,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   userId = 'susie123';
+  activeTab = 'trivia';
 
-  constructor() { }
+  constructor(private changeDetectorRef: ChangeDetectorRef) { }
 
   ngOnInit() {
+  }
+
+  changeActiveTab(tab) {
+    this.activeTab = tab;
+    this.changeDetectorRef.detectChanges();
   }
 
 }

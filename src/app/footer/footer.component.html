@@ -1,18 +1,17 @@
 <div class="footer-container">
-
-  <button [routerLink]="'/challenges'" mat-button>
+  <button [ngClass]="{'active': activeTab === 'challenges'}" (click)="changeActiveTab('challenges')" [routerLink]="'/challenges'" mat-button>
     <img src="./assets/icon-challenge.svg" />
     Challenges
   </button>
-  <button [routerLink]="'/trivia'" mat-button>
+  <button [ngClass]="{'active': activeTab === 'trivia'}" (click)="changeActiveTab('trivia')" [routerLink]="'/trivia'" mat-button>
     <img src="./assets/icon-trivia.svg" />
     Trivia
   </button>
-  <button [routerLink]="'/polls'" mat-button>
+  <button [ngClass]="{'active': activeTab === 'polls'}" (click)="changeActiveTab('polls')" [routerLink]="'/polls'" mat-button>
     <img src="./assets/icon-polls.svg" />
     Polls
   </button>
-  <button [routerLink]="['/profile', userId]" mat-button>
+  <button [ngClass]="{'active': activeTab === 'profile'}" (click)="changeActiveTab('profile')" [routerLink]="['/profile', userId]" mat-button>
     <img src="./assets/icon-profile.svg" />
     Profile
   </button>

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {switchMap} from 'rxjs/operators';
+import {AngularFirestore} from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-polls',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PollsComponent implements OnInit {
 
-  constructor() { }
+  poll: any;
+
+  constructor(private db: AngularFirestore) { }
 
   ngOnInit() {
+    this.db.collection('polls').valueChanges().pipe(switchMap(collection => collection)).subscribe(val => {
+      this.poll = val;
+      console.log(this.poll);
+    });
+  }
+
+  answerPoll(answer) {
+
   }
 
 }
