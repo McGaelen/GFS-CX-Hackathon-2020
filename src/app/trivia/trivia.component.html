@@ -1,3 +1,25 @@
-<p>
-  trivia works!
-</p>
+<div *ngIf="!answered" class="trivia-container">
+  <div class="description"><div class="description-text">{{trivia.description}}</div></div>
+  <button *ngFor="let choice of trivia.choices" mat-button (click)="answerTrivia(choice.choiceName)">{{choice.choiceName}}</button>
+</div>
+
+<div *ngIf="answered && correct" class="trivia-result correct">
+  <div class="description">
+    <img class="result-img" src="./assets/done-24px.svg" />
+    <div class="yas">Yaaaas!</div>
+    <div class="youre-right">You're right!</div>
+    <div class="choice">{{getCorrectChoice().choiceName }}</div>
+    <div class="message">Lettuce congratulate you!</div>
+    <img class="shield" src="./assets/shield.svg" />
+  </div>
+</div>
+
+<div *ngIf="answered && !correct" class="trivia-result">
+  <div class="description-fail">
+    <img class="result-img" src="./assets/not_interested-24px.svg" />
+    <div class="nope">Nope!</div>
+    <div class="youre-right">The answer was</div>
+    <div class="choice">{{getCorrectChoice().choiceName }}</div>
+    <div class="message">Don't worry, 12 others got it wrong</div>
+  </div>
+</div>

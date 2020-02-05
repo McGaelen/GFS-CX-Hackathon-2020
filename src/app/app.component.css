@@ -1,7 +1,5 @@
 .router-container {
-  height: calc(100% - 75px);
+  height: calc(100% - 125px);
+  overflow: hidden;
 }
 
-app-header {
-  height: 75px;
-}

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {AngularFirestore} from '@angular/fire/firestore';
+import {ActivatedRoute} from '@angular/router';
+import {switchMap} from 'rxjs/operators';
 
 @Component({
   selector: 'app-profile',
@@ -7,9 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
-  constructor() { }
+  profile: any;
+
+  constructor(private db: AngularFirestore, private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
+    this.activatedRoute.paramMap.pipe(switchMap(params =>
+      this.db.collection('profiles').doc(params.get('id')).valueChanges()))
+    .subscribe(profile => {
+      this.profile = profile;
+      console.log(this.profile);
+    });
   }
 
 }
